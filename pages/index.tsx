@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Stack, Code, Center, Box } from "@chakra-ui/react";
+import { Stack, Code, Center, Box, Divider } from "@chakra-ui/react";
 
 // components
-import { Layout, Hero } from "../components";
+import { Layout, Hero, Features } from "../components";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <main>
         <Layout>
           <Hero />
+          <Features />
         </Layout>
       </main>
 
